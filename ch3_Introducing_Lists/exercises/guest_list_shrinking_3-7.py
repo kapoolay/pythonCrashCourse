@@ -49,8 +49,6 @@ print(guest_list)
 del guest_list[0]
 print(guest_list)
 
-#TESTING
-
 
 # print(f'\n{greet} {guest_list[0]}{invite}')
 # print(f'{greet} {guest_list[1]}{invite}')
