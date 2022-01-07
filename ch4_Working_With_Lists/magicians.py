@@ -10,14 +10,14 @@ magicians = ['alice', 'david', 'carolina']
 # Tell each magician in the list they performed great
 # Tell them we're looking forward to their next trip
 
-# for magician in magicians:
-#     print(f'{magician.title()}, that was great!')
-#     print(f'I am looking forward to your next trip, {magician.title()}!\n')
+for magician in magicians:
+    print(f'{magician.title()}, that was great!')
+    print(f'I am looking forward to your next trip, {magician.title()}!\n')
 #
 # # Tell the whole group once thank you
 # print('Thank you, everyone. That was a great show!\n')
 
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~Forgetting to Indent~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-for magician in magicians:
-    print(magician)
+# for magician in magicians:
+#     print(magician)
