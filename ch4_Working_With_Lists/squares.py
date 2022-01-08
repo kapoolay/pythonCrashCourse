@@ -22,6 +22,8 @@ squares = []
 # print(squares)
 
 
+
+
 # ~~~~~~~~~~~~~~~~~~~~~~~~~LIST COMPREHENSIONS PAGE 95~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # List comprehension allows you to generate the code above in just one line of Code
 # Combines the for loop and the creation of new elements into one line, and automatically appends each new element
