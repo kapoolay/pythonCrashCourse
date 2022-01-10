@@ -16,7 +16,7 @@ for pizza in pizzas:
     print(pizza)
 
 # Print the message 'My friend\'s favorite pizzas are:'
-# Use a for loop to pring the list friend_pizzas
+# Use a for loop to print the list friend_pizzas
 print('\nMy friend\'s favorite pizzas are:')
 for pizza in friend_pizzas:
     print(pizza)

@@ -17,5 +17,5 @@ for pizza in pizzas[1:4]:
 # Print the message 'The last three items in the list are:'.
 # Use a slice to print the last three items in the list.
 print('\nThe last three items in the list are:')
-for pizza in pizzas[:3]:
+for pizza in pizzas[-3:]:
     print(pizza)
