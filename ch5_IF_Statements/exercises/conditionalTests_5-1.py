@@ -8,7 +8,9 @@
 #
 # print('\nIs car == "audi"? I predict false')
 # print(car == 'audi')
-#
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 kev = 30
 ale = 27
 
