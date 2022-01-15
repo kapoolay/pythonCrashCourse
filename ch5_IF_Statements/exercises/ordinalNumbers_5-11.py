@@ -1,6 +1,6 @@
 # Ordinal numbers indicate their position in a list
 # Such as 1st or 2nd
-# Most ordinal numbers end in "th", except 1,2, and 3
+# Most ordinal numbers end in "th", except 1, 2, and 3
 
 # Store numbers 1-9 in a list
 # Loop through the list
