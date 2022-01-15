@@ -15,13 +15,46 @@
 
 # Testing multiple conditions
 
-requested_topping = ['mushrooms', 'extra cheese']
+# requested_topping = ['mushrooms', 'extra cheese']
+#
+# if 'mushrooms' in requested_topping:
+#     print('Adding mushrooms!')
+# if 'pepperoni' in requested_topping:
+#     print('Adding pepperoni')
+# if 'extra cheese' in requested_topping:
+#     print('Adding extra cheese')
+#
+# print('\nYour order is ready!')
 
-if 'mushrooms' in requested_topping:
-    print('Adding mushrooms!')
-if 'pepperoni' in requested_topping:
-    print('Adding pepperoni')
-if 'extra cheese' in requested_topping:
-    print('Adding extra cheese')
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# # Checking for special items
+#
+# requested_toppings = ['mushrooms', 'green peppers', 'extra cheese', 'bacon']
+#
+# # Simple for loop
+# # for i in requested_toppings:
+# #     print(f'Adding {i}')
+#
+# # What if you run out of green peppers
+# for i in requested_toppings:
+#     if i == 'green peppers':
+#         print('Sorry we ran out of green peppers')
+#     else:
+#         print(f'Adding {i}')
+#
+# print('\nYour pizza is ready!')
 
-print('\nYour order is ready!')
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Checking if a List is not empty
+
+requested_toppings = []
+# requested_toppings = ['mushrooms', 'green peppers', 'extra cheese', 'bacon']
+
+if requested_toppings:
+    for i in requested_toppings:
+        print(f'Adding {i}')
+    print('\nYour pizza is ready!')
+else:
+    print('Are you just wanting a cheese pizza?')
+
+# When the name of a list is used in an if statement, Python returns 'True' if the list contains at least one item; an empty list evaluates to 'False'
