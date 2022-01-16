@@ -8,8 +8,17 @@
 # Your output should read "1st 2nd 3rd 4th 5th 6th 7th 8th 9th"
 # Each result should be on a separate line
 
+# Review --> print range 1-9
+for i in range(1, 10):
+    print(i)
+
+# Put range 1-9 in a list
 numbers = list(range(1,10))
 print(numbers)
+
+# Review --> print range 1-9
+for i in range(1, 10):
+    print(i)
 
 # For each i in numbers
 # If i is 1, print 1 with "st"
