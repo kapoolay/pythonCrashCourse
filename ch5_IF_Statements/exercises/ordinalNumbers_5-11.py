@@ -16,10 +16,6 @@ for i in range(1, 10):
 numbers = list(range(1,10))
 print(numbers)
 
-# Review --> print range 1-9
-for i in range(1, 10):
-    print(i)
-
 # For each i in numbers
 # If i is 1, print 1 with "st"
 # Elif i is 2, print 2 with "nd"
