@@ -35,3 +35,11 @@ for i in numbers:
         print(f'{i}rd')
     else:
         print(f'{i}th')
+
+
+# Styling if statements
+# The only recommendation is to use a single space around comparison operators
+# Example
+if age < 4:
+# is better than:
+if age<4:
