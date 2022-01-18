@@ -32,15 +32,15 @@
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # Adding new key-value pairs
 
-# alien_o = {
-# 'color': 'green',
-# 'points': 5,
-# }
-#
-# print(alien_o)
-# alien_o['xAxis'] = 0
-# alien_o['yAxis'] = 25
-# print(alien_o)
+alien_o = {
+'color': 'green',
+'points': 5,
+}
+
+print(alien_o)
+alien_o['xAxis'] = 0
+alien_o['yAxis'] = 25
+print(alien_o)
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # Starting with an empty dictionary
