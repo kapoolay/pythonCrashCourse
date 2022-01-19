@@ -30,25 +30,35 @@
 # print(f'You just earned {newPoints} points! Congrats!')
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# Adding new key-value pairs
-
-alien_o = {
-'color': 'green',
-'points': 5,
-}
-
-print(alien_o)
-alien_o['xAxis'] = 0
-alien_o['yAxis'] = 25
-print(alien_o)
+# # Adding new key-value pairs
+#
+# alien_o = {
+# 'color': 'green',
+# 'points': 5,
+# }
+#
+# print(alien_o)
+# alien_o['xAxis'] = 0
+# alien_o['yAxis'] = 25
+# print(alien_o)
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# Starting with an empty dictionary
+# # Starting with an empty dictionary
+#
+# # define the dictionary name with empty braces
+# alien_o = {}
+#
+# # Add key/value pairs on its own line
+# alien_o['color'] = 'green'
+# alien_o['points'] = 5
+# print(alien_o)
 
-# define the dictionary name with empty braces
-alien_o = {}
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Empty Dictionary
 
-# Add key/value pairs on its own line
-alien_o['color'] = 'green'
-alien_o['points'] = 5
-print(alien_o)
+person1 = {}
+
+person1['firstName'] = 'kevin'
+person1['lastName'] = 'capule'
+person1['age'] = '30'
+print(person1)
