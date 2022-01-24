@@ -15,10 +15,10 @@ for person, places in favoritePlaces.items():
         print(f"{person.title()}\'s favorite places are:")
         for place in places:
             print(f"\t{place.title()}")
-    elif len(places) <= 1:
+    elif len(places) == 1:
         print(f"{person.title()}\'s favorite place is:")
         for place in places:
             print(f"\t{place.title()}")
     else:
-        print('testing')
+        print('--no values--')
     print('\n')
