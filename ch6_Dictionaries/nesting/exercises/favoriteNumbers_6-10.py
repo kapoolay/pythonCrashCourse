@@ -10,19 +10,29 @@ favoriteNumbers = {
 }
 
 # Print each person's name and their favorite number
-for name, numbers in favoriteNumbers.items():
+# for each person/numbers in favoriteNumbers
+# Print
+for person, numbers in favoriteNumbers.items():
     if len(numbers) == 1:
-        print(f"\n{name.title()}\'s favorite number is:")
+        print(f"\n{person.title()}\'s favorite number is:")
         for number in numbers:
             print(f"\t{number}")
-    elif len(numbers) > 1:
-        print(f"\n{name.title()}\'s favorite numbers are:")
+    elif len(numbers) >= 1:
+        print(f"\n{person.title()}\'s favorite numbers are:")
         for number in numbers:
             print(f"\t{number}")
     else:
-        print(f'\nTHIS IS A TEST')
-    #testing
-    #testing #2
-    # test 3 token auth
-    # test 4 token auth
-    # test 5
+        print(f'\n{person.title()} doesn\'t have a favorite number')
+
+
+# for name, numbers in favoriteNumbers.items():
+#     if len(numbers) == 1:
+#         print(f"\n{name.title()}\'s favorite number is:")
+#         for number in numbers:
+#             print(f"\t{number}")
+#     elif len(numbers) > 1:
+#         print(f"\n{name.title()}\'s favorite numbers are:")
+#         for number in numbers:
+#             print(f"\t{number}")
+#     else:
+#         print(f'\nTHIS IS A TEST')
