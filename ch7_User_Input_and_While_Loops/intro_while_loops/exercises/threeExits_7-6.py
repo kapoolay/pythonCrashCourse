@@ -13,16 +13,19 @@ prompt = "\nHow old are you? "
 prompt += "\n(Enter 'quit' to end): "
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# Use a conditional test in the 'while' statement to stop the loop
-age = input(prompt)
-
-while age != "quit":
-    age = int(age)
-    if age < 3:
-        print("Your ticket is free, enjoy!")
-    else:
-        print(age)
-
+# # Use a conditional test in the 'while' statement to stop the loop
+# age = input(prompt)
+# age = int(age)
+#
+# while age < 100:
+#     if age == "quit":
+#         break
+#     elif age < 3:
+#         print("Your ticket is free, enjoy!")
+#     elif age <= 12:
+#         print("Your ticket cost is $10.")
+#     elif age > 12:
+#         print("Your ticket cost is $15.")
 
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -44,18 +47,18 @@ while age != "quit":
 #         elif age > 12:
 #             print("Your ticket cost is $15.")
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# # Use a 'break' statement to exit the loop when the user enters a 'quit' value
-# while True:
-#     age = input(prompt)
-#     if age != "quit":
-#         # Change input into number
-#         age = int(age)
-#         if age < 3:
-#             print("Your ticket is free, enjoy!")
-#         elif age <= 12:
-#             print("Your ticket cost is $10.")
-#         elif age > 12:
-#             print("Your ticket cost is $15.")
-#     else:
-#         print("Enjoy the movie!")
-#         break
+# Use a 'break' statement to exit the loop when the user enters a 'quit' value
+while True:
+    age = input(prompt)
+    if age != "quit":
+        # Change input into number
+        age = int(age)
+        if age < 3:
+            print("Your ticket is free, enjoy!")
+        elif age <= 12:
+            print("Your ticket cost is $10.")
+        elif age > 12:
+            print("Your ticket cost is $15.")
+    else:
+        print("Enjoy the movie!")
+        break
