@@ -12,14 +12,11 @@
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # Pass info to a function
-def greetUser(username, greeter):
+def greetUser(username):
     """Display a simple greeting."""
     print("\nThe purpose of this function is to print 'Hello!'")
     print(f"\tHello {username.title()}!")
-    print(f"My name is {greeter.title()}! Nice to meet you!")
-
 
 # Call the function
 # greetUser("kevin")
 # greetUser("alexia")
-greetUser("kevin", "eddy")
