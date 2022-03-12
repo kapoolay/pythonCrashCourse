@@ -19,7 +19,7 @@ while True:
         print("Thanks for playing!")
         break
 
-    albumPrompt = input(f"Albume name: ")
+    albumPrompt = input(f"Album name: ")
     if albumPrompt == 'q':
         print("Thanks for playing!")
         break
